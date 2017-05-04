@@ -14,7 +14,7 @@ public class Main {
         switch (args.length) {
             case 1:
                 fileLoader = new FileLoader(args[0]);
-                fileWriter = new FileWriter("output.txt");
+                fileWriter = new FileWriter("output");
                 break;
             case 2:
                 fileLoader = new FileLoader(args[0]);
@@ -22,7 +22,7 @@ public class Main {
                 break;
             default:
                 fileLoader = new FileLoader("input.txt");
-                fileWriter = new FileWriter("output.txt");
+                fileWriter = new FileWriter("output");
                 break;
         }
 
