@@ -12,6 +12,7 @@ public class Converter {
     Map<String, String> table;
 
     public Converter() {
+        //Creation of the map that will be used in the conversion
         table = new HashMap<String, String>();
         table.put("A", "2");
         table.put("B", "2");
@@ -48,7 +49,7 @@ public class Converter {
     public String convert(String input) {
         String result = "";
         //Loops in all the chars in the string
-        //For each char it will out its converted value in the resut string
+        //For each char it will put its converted value in the resut string
         for (int i = 0; i < input.length(); i++) {
             String character = "" + input.charAt(i);
             if (table.get(character) == null) {
