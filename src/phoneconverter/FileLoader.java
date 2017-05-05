@@ -13,12 +13,13 @@ public class FileLoader {
 
     String fileName;
     Core core;
-
+    
     public FileLoader(String fileName) {
         this.fileName = fileName;
+        //Created the core
         core = new Core();
     }
-
+    //Loads the input file and adds to the core the input strings
     public void load() {
 
         try {
@@ -33,6 +34,7 @@ public class FileLoader {
                 if (line == null) {//Case where line is empty, end of file
                     eof = true;
                 } else {
+                    //Will add eah line of the file as a string into the core
                     core.addInput(line);
                 }
             }
@@ -41,9 +43,9 @@ public class FileLoader {
         }
 
     }
-    
-    public Core getCore(){
-        
+
+    public Core getCore() {
+
         return this.core;
     }
 
