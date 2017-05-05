@@ -2,6 +2,10 @@
 
 This program receives as input a file with expressions representing phone numbers. One in each line.
 
+An expression is composed  of letters (A-Z), hifens (-) and the numbers 1 and 0.
+
+An expression has to have at leats 1 character and  no more than 30.
+
 EG: 
 
 1-HOME-SWEET-HOME
