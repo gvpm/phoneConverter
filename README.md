@@ -2,27 +2,25 @@
 
 This program receives as input a file with expressions representing phone numbers. One in each line.
 
-An expression is composed  of letters (A-Z), hifens (-) and the numbers 1 and 0.
+- An expression is composed  of letters (A-Z), hifens (-) and the numbers 1 and 0.
 
-An expression has to have at leats 1 character and  no more than 30.
+- An expression has to have at leats 1 character and  no more than 30.
 
 EG: 
 
 1-HOME-SWEET-HOME
-
 MY-MISERABLE-JOB
     
     
-It will create an output file converting each expression into a correspondent phone number.
+- It will create an output file converting each expression into a correspondent phone number.
 
 EG: 
 
 1-4663-79338-4663
-
 69-647372253-562
 
     
-The  convertion follows those rules.
+- The convertion follows those rules.
 
 ABC = 2
 
@@ -41,7 +39,7 @@ TUV = 8
 WXYZ = 9
 
 
-If the  character is not listed it remains the same.
+- If the character is not listed it remains the same.
 
 ## Running the Program.
 - Go to the phoneConverterRun  folder.
