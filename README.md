@@ -9,6 +9,7 @@ This program receives as input a file with expressions representing phone number
 EG: 
 
 1-HOME-SWEET-HOME
+
 MY-MISERABLE-JOB
     
     
@@ -17,6 +18,7 @@ MY-MISERABLE-JOB
 EG: 
 
 1-4663-79338-4663
+
 69-647372253-562
 
     
