@@ -1,23 +1,41 @@
 # phoneConverter
 
 This program receives as input a file with expressions representing phone numbers. One in each line.
-EG: 1-HOME-SWEET-HOME
-    MY-MISERABLE-JOB
+
+EG: 
+
+1-HOME-SWEET-HOME
+
+MY-MISERABLE-JOB
+    
     
 It will create an output file converting each expression into a correspondent phone number.
-EG: 1-4663-79338-4663
-    69-647372253-562
+
+EG: 
+
+1-4663-79338-4663
+
+69-647372253-562
+
     
 The  convertion follows those rules.
 
 ABC = 2
+
 DEF = 3
+
 GHI = 4
+
 JKL = 5
+
 MNO = 6
+
 PQRS = 7
+
 TUV = 8
+
 WXYZ = 9
+
 
 If the  character is not listed it remains the same.
 
