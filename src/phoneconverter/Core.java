@@ -32,6 +32,10 @@ public class Core {
     }
     //Function to receive the inputs from the fileLoader
     public void addInput(String input) {
+        if(input.length()>30||1>=input.length()){
+            System.out.println("Invalid Input Size");
+                    System.exit(1);
+        }
         inputs.add(input);
 
     }

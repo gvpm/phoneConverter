@@ -35,7 +35,9 @@ public class Main {
         //Runs the core
         core.run();
         //Writes  in the output file what was done in the core.
+        
         fileWriter.export(core.getOutputs());
+        
 
     }
 
