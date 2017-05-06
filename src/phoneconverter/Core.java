@@ -25,8 +25,10 @@ public class Core {
             String converted;
             //Converts the input string using the converter
             converted = converter.convert(inputs.get(i));
-            //It adds to the output the converted string
+            //It adds to the output the converted string            
             outputs.add(converted);
+            //Prints the converted value
+            System.out.println(converted);
         }
 
     }

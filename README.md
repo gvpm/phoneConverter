@@ -13,7 +13,7 @@ EG:
 MY-MISERABLE-JOB
     
     
-- It will create an output file converting each expression into a correspondent phone number.
+- It will create an output file converting each expression into a correspondent phone number. And will also print the output.
 
 EG: 
 
